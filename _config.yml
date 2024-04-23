@@ -1,24 +1,26 @@
-# Site settings
-title: "A Test Site"
-description: "A description of my site"
-author: "John Doe"
-email: "john@example.com"
-timezone: "America/New_York"
-url: "https://example.com"
-baseurl: ""
-
-# Styling settings
+---
+title: A Test Site
+timezone: America/New_York
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+  values:
+    layout: default
+description: A description of my site
+author: John Doe
+email: john@example.com
+url: https://example.com
+baseurl: ''
 background_color: "#ffffff"
 text_color: "#000000"
 secondary_color: "#cccccc"
-font: "Arial, sans-serif"
-icon: "favicon.ico"
-social_media_image: "social-media-image.png"
-
-# Default page layout
-defaults:
-  -
-    scope:
-      path: "" # empty string for all pages
-    values:
-      layout: "default" # default layout for all pages
+font: Arial, sans-serif
+icon: favicon.ico
+social_media_image: social-media-image.png
