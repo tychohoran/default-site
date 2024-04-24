@@ -17,10 +17,10 @@ description: A description of my site
 author: John Doe
 email: john@example.com
 url: https://example.com
-baseurl: ''
+baseurl: 
 background_color: "#ffffff"
 text_color: "#000000"
 secondary_color: "#cccccc"
 font: Arial, sans-serif
-icon: favicon.ico
+icon_image: "/uploads/favicon.ico"
 social_media_image: social-media-image.png
